@@ -1,9 +1,12 @@
 function Header() {
     return(
-        <div className="header">
-            <img src={new URL(`../assets/Logo.png`, import.meta.url).href} className="header--logo" />
-            <p className="header--text">React Course - Project</p>
-        </div>
+        <header className="header">
+            <img 
+                src={new URL(`../assets/troll-face.png`, import.meta.url).href} 
+                className="header--image" />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Course - Project</h4>
+        </header>
     )
 }
 
